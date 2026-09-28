@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050505">
+  <meta name="description" content="Polo Boys — matching sets, rare colorways, women's sets and custom designs.">
+  <title>POLO BOYS — Playas Only Live Once</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ENTER PAGE -->
+  <section class="enter-screen" id="enterScreen" aria-label="Enter Polo Boys">
+    <div class="enter-noise"></div>
+    <div class="enter-orbit orbit-one"></div>
+    <div class="enter-orbit orbit-two"></div>
+    <div class="enter-center">
+      <img src="assets/logo.png" alt="Polo Boys" class="enter-logo" onerror="this.onerror=null;this.src='assets/logo.jpg'">
+      <p class="enter-kicker">PLAYAS ONLY LIVE ONCE</p>
+      <button class="enter-button" id="enterButton">ENTER <span>↗</span></button>
+    </div>
+    <div class="enter-bottom"><span>SOUTH CENTRAL</span><span>LOS ANGELES</span><span>EST. 2026</span></div>
+  </section>
+
+  <div class="site-shell" id="siteShell">
+    <div class="announcement"><span>LIMITED SETS</span><i>✦</i><span>RARE COLORWAYS</span><i>✦</i><span>PLAYAS ONLY LIVE ONCE</span></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Polo Boys home">
+        <img src="assets/logo.png" alt="Polo Boys logo" onerror="this.onerror=null;this.src='assets/logo.jpg'">
+        <span>POLO BOYS</span>
+      </a>
+      <nav class="desktop-nav">
+        <a href="#shop">Shop</a>
+        <a href="#mens">Men's</a>
+        <a href="#womens">Women's</a>
+        <a href="#customize">Customize</a>
+        <a href="#movement">The Movement</a>
+      </nav>
+      <div class="header-actions">
+        <a href="https://www.instagram.com/playasonlyinc/" target="_blank" rel="noreferrer">Instagram</a>
+        <button class="bag-button" id="bagButton">Bag <span id="bagCount">0</span></button>
+        <button class="menu-button" id="menuButton" aria-label="Menu">☰</button>
+      </div>
+    </header>
+
+    <nav class="mobile-menu" id="mobileMenu" hidden>
+      <a href="#shop">Shop</a><a href="#mens">Men's</a><a href="#womens">Women's</a>
+      <a href="#customize">Customize</a><a href="#movement">The Movement</a>
+    </nav>
+
+    <main id="top">
+      <!-- IMMERSIVE LANDING -->
+      <section class="landing-hero">
+        <div class="landing-copy reveal">
+          <p class="eyebrow">POLO BOYS / SOUTH CENTRAL</p>
+          <h1>PLAYAS<br><span>ONLY LIVE ONCE.</span></h1>
+          <p class="lead">Original matching sets, rare colorways and custom pieces built around the Polo Boys standard.</p>
+          <div class="hero-ctas">
+            <a class="button gold" href="#shop">ENTER THE COLLECTION</a>
+            <a class="button outline" href="#customize">BRING YOUR VISION</a>
+          </div>
+        </div>
+        <div class="hero-product reveal">
+          <div class="hero-frame">
+            <img src="assets/products/mens-black-gold.jpg" alt="South Central Black and Gold Polo Boys set">
+          </div>
+          <div class="hero-label"><span>FEATURED SET</span><strong>SOUTH CENTRAL BLACK & GOLD</strong><em>$125</em></div>
+        </div>
+        <div class="scroll-mark">SCROLL <span>↓</span></div>
+      </section>
+
+      <section class="statement-strip">
+        <div>LOYALTY ✦ PRIDE ✦ RESPECT ✦ UNITY ✦ STRENGTH ✦ PLAYAS ONLY LIVE ONCE ✦</div>
+      </section>
+
+      <!-- MEN -->
+      <section class="editorial-section" id="mens">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">01 / MEN'S COLLECTION</p><h2>THE SETS.</h2></div>
+          <p>Matching silhouettes, signature sleeve graphics and Polo Boys details. Each colorway gets its own space.</p>
+        </div>
+        <div class="feature-row">
+          <article class="feature-card tall reveal" data-product="mens-navy-blue">
+            <img src="assets/products/mens-navy-blue.jpg" alt="South Central Navy Blue set">
+            <div class="feature-overlay"><span>MEN'S SET</span><h3>SOUTH CENTRAL<br>NAVY BLUE</h3><b>$125</b><button class="text-button" data-view="mens-navy-blue">VIEW SET ↗</button></div>
+          </article>
+          <article class="feature-card reveal" data-product="mens-rare-green">
+            <img src="assets/products/mens-rare-green.jpg" alt="Rare Green Splatter set">
+            <div class="feature-overlay"><span>RARE / LIMITED</span><h3>RARE GREEN<br>SPLATTER</h3><b>$200</b><button class="text-button" data-view="mens-rare-green">VIEW SET ↗</button></div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SHOP GRID -->
+      <section class="shop-section" id="shop">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">02 / SHOP</p><h2>COLORWAYS.</h2></div>
+          <p>Product photography stays simple and believable: the complete set is the subject, with room for the garment to breathe.</p>
+        </div>
+        <div class="filters" id="filters">
+          <button class="active" data-filter="all">ALL</button>
+          <button data-filter="mens">MEN'S</button>
+          <button data-filter="womens">WOMEN'S</button>
+          <button data-filter="rare">RARE</button>
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+      </section>
+
+      <!-- WOMEN / STYLES BY LENA -->
+      <section class="lena-section" id="womens">
+        <div class="lena-copy reveal">
+          <p class="eyebrow">03 / WOMEN'S COLLECTION</p>
+          <h2>STYLES<br><span>BY LENA.</span></h2>
+          <p>Custom design energy, translated into Polo Boys sets. Women's colorways keep the same brand language while changing the silhouette and styling.</p>
+          <a class="button dark" href="#shop">VIEW WOMEN'S SETS</a>
+        </div>
+        <div class="lena-images">
+          <img class="lena-main reveal" src="assets/products/womens-black-gold.jpg" alt="Women's Black and Gold set">
+          <img class="lena-small reveal" src="assets/products/womens-white-pink.jpg" alt="Women's White and Pink set">
+          <img class="lena-small lower reveal" src="assets/products/womens-powder-blue.jpg" alt="Women's Powder Blue set">
+        </div>
+      </section>
+
+      <!-- CUSTOM -->
+      <section class="custom-section" id="customize">
+        <div class="custom-image reveal">
+          <img src="assets/products/mens-rare-green.jpg" alt="Polo Boys rare green set">
+        </div>
+        <div class="custom-copy reveal">
+          <p class="eyebrow">04 / CUSTOMIZE</p>
+          <h2>BRING<br>YOUR VISION.</h2>
+          <p>Your idea. Your colors. Your graphics. We develop custom apparel under the Polo Boys standard — from concept and mockup through the final garment direction.</p>
+          <div class="custom-points">
+            <span>01 / CONCEPT</span><span>02 / DESIGN</span><span>03 / MOCKUP</span><span>04 / PRODUCTION DIRECTION</span>
+          </div>
+          <a class="button gold" href="mailto:officialpoloboys@gmail.com?subject=Polo%20Boys%20Custom%20Project">START A CUSTOM PROJECT ↗</a>
+        </div>
+      </section>
+
+      <!-- MOVEMENT -->
+      <section class="movement-section" id="movement">
+        <div class="movement-head reveal">
+          <p class="eyebrow">05 / THE MOVEMENT</p>
+          <h2>MORE THAN<br>THE CLOTHES.</h2>
+        </div>
+        <div class="movement-track">
+          <div class="movement-panel"><span>PLAYAS ONLY LIVE ONCE</span><strong>WE CREATE<br>FOR THE<br>VISIONARIES.</strong></div>
+          <div class="movement-panel image-panel"><img src="assets/products/mens-black-gold.jpg" alt="Polo Boys set"></div>
+          <div class="movement-panel"><span>BUILT ON LOYALTY.</span><strong>DRIVEN BY<br>RESPECT.</strong></div>
+          <div class="movement-panel image-panel"><img src="assets/products/womens-pink-red.jpg" alt="Women's Polo Boys set"></div>
+        </div>
+      </section>
+
+      <section class="contact-band">
+        <p class="eyebrow">FOLLOW THE BUILD</p>
+        <h2>@PLAYASONLYINC</h2>
+        <a class="button outline" href="https://www.instagram.com/playasonlyinc/" target="_blank" rel="noreferrer">INSTAGRAM ↗</a>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-brand"><img src="assets/logo.png" alt="Polo Boys" onerror="this.onerror=null;this.src='assets/logo.jpg'"><strong>POLO BOYS</strong><span>PLAYAS ONLY LIVE ONCE.</span></div>
+      <div class="footer-links"><a href="#shop">Shop</a><a href="#mens">Men's</a><a href="#womens">Women's</a><a href="#customize">Customize</a><a href="#movement">Movement</a></div>
+      <div class="footer-contact"><a href="mailto:officialpoloboys@gmail.com">officialpoloboys@gmail.com</a><a href="tel:+19512858906">+1 (951) 285-8906</a></div>
+      <div class="footer-bottom">© <span id="year"></span> Polo Boys <span>PLAYAS ONLY LIVE ONCE</span></div>
+    </footer>
+  </div>
+
+  <!-- PRODUCT MODAL -->
+  <dialog class="product-dialog" id="productDialog">
+    <button class="dialog-close" id="productClose" aria-label="Close">×</button>
+    <div class="dialog-image"><img id="dialogImage" alt=""></div>
+    <div class="dialog-info">
+      <p class="eyebrow" id="dialogTag"></p>
+      <h2 id="dialogName"></h2>
+      <div class="dialog-price" id="dialogPrice"></div>
+      <p id="dialogDescription"></p>
+      <div class="dialog-actions"><a class="button gold" id="buyNow" target="_blank" rel="noreferrer">BUY NOW ↗</a><button class="button outline" id="dialogAdd">ADD TO BAG</button></div>
+      <small>Secure checkout opens through the product's Square checkout page.</small>
+    </div>
+  </dialog>
+
+  <!-- SIMPLE BAG -->
+  <aside class="bag-drawer" id="bagDrawer">
+    <div class="bag-head"><div><p class="eyebrow">YOUR BAG</p><h2>SELECTED SETS</h2></div><button id="bagClose">×</button></div>
+    <div id="bagItems" class="bag-items"></div>
+    <div class="bag-foot"><p>Bag selections are for quick reference. Checkout is completed on each product's secure Square page.</p><a class="button gold wide" href="#shop" id="bagShop">CONTINUE SHOPPING</a></div>
+  </aside>
+  <div class="bag-backdrop" id="bagBackdrop"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
